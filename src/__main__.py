@@ -3,11 +3,16 @@ import os
 import time
  
 class Project_base():
-    """ A base for projects in python. Mostrly aimed at lower level projects for embedded systems.
+    """ A base for projects in python. Mostly aimed at lower level projects for embedded systems.
     """
   
   def __init__():
    """ Constructor of the class.
+   """
+   pass
+  
+  example_method():
+   """ Example of method
    """
    pass
 
