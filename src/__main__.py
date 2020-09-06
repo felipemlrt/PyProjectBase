@@ -11,7 +11,7 @@ class Project_base():
    """
    pass
   
-  example_method():
+  def example_method():
    """ Example of method
    """
    pass
