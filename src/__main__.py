@@ -18,4 +18,6 @@ class Project_base():
 
 if __name__ == "__main__":
   # Code that will only run if this file is run as the initial point.
-  
+  #File lock
+  #logger
+  #exeption handling
