@@ -1,5 +1,6 @@
  
 import os
+import sys
 import time
  
 class Project_base():
@@ -18,6 +19,19 @@ class Project_base():
 
 if __name__ == "__main__":
   # Code that will only run if this file is run as the initial point.
-  #File lock
+  pid = str(os.getpid())
+  pidfile = "/tmp/file_lock.pid"
+
+  if os.path.isfile(pidfile):
+      print ("%s already exists, exiting") % pidfile
+      sys.exit()
+  file(pidfile, 'w').write(pid)
+  try:
+  # Do some actual work here
+  finally:
+    os.unlink(pidfile)
+    
+  except Exception as e:
+    return e
   #logger
   #exeption handling
