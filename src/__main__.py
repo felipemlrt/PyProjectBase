@@ -15,7 +15,15 @@ class Project_base():
   def example_method():
    """ Example of method
    """
-   pass
+   try:
+     pass
+
+   finally:
+     pass
+    
+   except Exception as e:
+     return e
+  
 
 if __name__ == "__main__":
   # Code that will only run if this file is run as the initial point.
@@ -34,4 +42,3 @@ if __name__ == "__main__":
   except Exception as e:
     return e
   #logger
-  #exeption handling
