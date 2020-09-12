@@ -15,13 +15,13 @@ class Project_base():
   def example_method():
    """ Example of method
    """
-   try:
+   try: #usual operation run this
      pass
 
    finally:
      pass
     
-   except Exception as e:
+   except Exception as e: #in case any exceptions are raised this will run
      return e
   
 
