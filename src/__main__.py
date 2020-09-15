@@ -31,7 +31,7 @@ if __name__ == "__main__":
   pidfile = "/tmp/file_lock.pid"
 
   if os.path.isfile(pidfile):
-      print ("%s already exists, exiting") % pidfile
+      print ("File already exists! Exiting")
       sys.exit()
   file(pidfile, 'w').write(pid)
   try:
