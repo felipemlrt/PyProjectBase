@@ -17,12 +17,15 @@ class Project_base():
    """
    try: #usual operation run this
      pass
-
-   finally:
-     pass
     
    except Exception as e: #in case any exceptions are raised this will run
      return e
+      
+   else: #if no exceptions are raised this will run
+    pass
+
+   finally: #this will run regardless of exceptions or not
+     pass
   
 
 if __name__ == "__main__":
