@@ -38,7 +38,8 @@ if __name__ == "__main__":
       sys.exit()
   file(pidfile, 'w').write(pid)
   try:
-  # Do some actual work here
+  # Code goes here
+  # Codigo aqui
   finally:
     os.unlink(pidfile)
     
