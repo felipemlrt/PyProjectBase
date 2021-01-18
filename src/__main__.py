@@ -34,7 +34,8 @@ if __name__ == "__main__":
   pidfile = "/tmp/file_lock.pid"
 
   if os.path.isfile(pidfile):
-      print ("File already exists! Exiting")
+      #recovering for unexpected shutdowns this file may need to be cleared
+      print ("One istance is already open!")
       sys.exit()
   file(pidfile, 'w').write(pid)
   try:
