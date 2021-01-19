@@ -29,6 +29,7 @@ class Project_base():
   
 
 if __name__ == "__main__":
+ try:
   # Code that will only run if this file is run as the initial point.
   pid = str(os.getpid())
   pidfile = "/tmp/file_lock.pid"
@@ -38,7 +39,6 @@ if __name__ == "__main__":
       print ("One istance is already open!")
       sys.exit()
   file(pidfile, 'w').write(pid)
-  try:
   # Code goes here
   # Codigo aqui
   finally:
