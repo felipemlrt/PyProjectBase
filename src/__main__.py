@@ -16,7 +16,7 @@ class Project_base():
    """ Example of method
    """
    try: #usual operation run this
-     pass
+     pass 
     
    except Exception as e: #in case any exceptions are raised this will run
      return e
@@ -27,7 +27,13 @@ class Project_base():
    finally: #this will run regardless of exceptions or not
      pass
   
-
+  def find_path():
+   try:
+    pass
+   except Exception as e:
+    print("Could not locate file path")
+    print(e)
+   
 if __name__ == "__main__":
  try:
   # Code that will only run if this file is run as the initial point.
