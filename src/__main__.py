@@ -4,7 +4,7 @@ import sys
 import time
  
 class Project_base():
-    """ A base for projects in python. Mostly aimed at lower level projects for embedded systems.
+    """ This project is meants as a base for projects in python. Mostly aimed at lower level projects for embedded systems, in wich installing many modules is difficult.
     """
   
   def __init__():
