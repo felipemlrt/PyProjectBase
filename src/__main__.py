@@ -8,7 +8,7 @@ class Project_base():
     """
   
   def __init__():
-   """ Constructor of the class.
+   """ Constructor of the class. Used to set required data at runtime.
    """
    pass
   
