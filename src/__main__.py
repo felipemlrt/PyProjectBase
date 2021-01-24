@@ -17,15 +17,12 @@ class Project_base():
    """
    try: #usual operation run this
      pass 
-    
    except Exception as e: #in case any exceptions are raised this will run
-     return e
-      
+     print(e) #at least log and/or print
    else: #if no exceptions are raised this will run
     pass
-
    finally: #this will run regardless of exceptions or not
-     pass
+     pass #for instance closing a connection with a database should be done regardless of the operations being done or not.
   
   def find_path():
    try:
