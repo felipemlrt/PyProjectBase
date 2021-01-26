@@ -33,10 +33,10 @@ class Project_base():
    
 if __name__ == "__main__":
  try:
-  # Code that will only run if this file is run as the initial point.
+  # Code that only lets the program run if it is not already running.
+  # Codigo que verifica se o programa ja esta em execucao.
   pid = str(os.getpid())
   pidfile = "/tmp/file_lock.pid"
-
   if os.path.isfile(pidfile):
       #recovering for unexpected shutdowns this file may need to be cleared
       print ("One istance is already open!")
