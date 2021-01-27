@@ -42,6 +42,7 @@ if __name__ == "__main__":
       print ("One istance is already open!")
       sys.exit()
   file(pidfile, 'w').write(pid)
+  print("Starting run, EXAMPLE V.01")
   # Code goes here
   # Codigo aqui
   finally:
