@@ -15,7 +15,8 @@ class Project_base():
   def example_method():
    """ Example of method
    """
-   try: #usual operation run this
+   try:
+     #first this will run
      pass 
    except Exception as e: #in case any exceptions are raised this will run
      print(e) #at least log and/or print
