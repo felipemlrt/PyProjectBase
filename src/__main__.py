@@ -1,5 +1,5 @@
  
-import os
+import os #this code is meant for linux as it is the more easily used embedded os and very common 
 import sys
 import time
  
