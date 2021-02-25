@@ -4,6 +4,7 @@ class connector():
  url =
  password =
  login =
+ database =
  
  def connect()
  def disconnect()
