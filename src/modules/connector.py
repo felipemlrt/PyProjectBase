@@ -18,7 +18,10 @@ class connector():
    print(e)
    
  def connect()
+ 
  def disconnect()
- def select()
+ 
+ def select(self, query)
+ 
  def insert()
  def delete()
