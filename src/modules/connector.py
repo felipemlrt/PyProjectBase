@@ -23,5 +23,5 @@ class connector():
  
  def select(self, query)
  
- def insert()
- def delete()
+ def insert(self, query)
+ def delete(self, query)
