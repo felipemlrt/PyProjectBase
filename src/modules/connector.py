@@ -18,10 +18,15 @@ class connector():
    print(e)
    
  def connect()
- 
+  try:
+  except Exeption as e:
+   print(e)
+   
  def disconnect()
  
  def select(self, query)
  
  def insert(self, query)
+ 
+ 
  def delete(self, query)
