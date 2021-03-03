@@ -23,7 +23,10 @@ class connector():
    print(e)
    
  def disconnect()
- 
+  try:
+  except Exeption as e:
+   print(e)
+   
  def select(self, query)
  
  def insert(self, query)
