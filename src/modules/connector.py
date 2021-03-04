@@ -28,7 +28,10 @@ class connector():
    print(e)
    
  def select(self, query)
- 
+  try:
+  except Exeption as e:
+   print(e)
+   
  def insert(self, query)
  
  
