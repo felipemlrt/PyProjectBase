@@ -4,7 +4,7 @@ import sys
 import time
 import logging
  
-class Project_base():
+class project_base():
     """ This project is meants as a base for projects in python. Mostly aimed at lower level projects for embedded systems, in wich installing many modules is difficult.
     """
   log = None
