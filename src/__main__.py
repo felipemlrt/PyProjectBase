@@ -2,14 +2,17 @@
 import os #this code is meant for linux as it is the more easily used embedded os and very common 
 import sys
 import time
+import logging
  
 class Project_base():
     """ This project is meants as a base for projects in python. Mostly aimed at lower level projects for embedded systems, in wich installing many modules is difficult.
     """
+  log = None
   
-  def __init__():
+  def __init__(self):
    """ Constructor of the class. Used to set required data at runtime.
    """
+   self.log = logging.getLogger(__name__)
    pass
   
   def example_method():
