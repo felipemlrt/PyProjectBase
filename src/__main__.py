@@ -15,7 +15,7 @@ class project_base():
    self.log = logging.getLogger(__name__)
    pass
   
-  def example_method():
+  def example_method(self):
    """ Example of method
    """
    try:
