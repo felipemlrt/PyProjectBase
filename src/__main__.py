@@ -29,6 +29,8 @@ class project_base():
      pass #for instance closing a connection with a database should be done regardless of the operations being done or not.
   
   def find_path():
+   """Finds and returns the current working directory.
+   """
    try:
     pass
    except Exception as e:
