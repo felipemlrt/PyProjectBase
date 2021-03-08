@@ -16,7 +16,7 @@ class project_base():
    pass
   
   def example_method(self):
-   """ Example of method
+   """ Example of method with all possible blocks
    """
    try:
      #first this will run
