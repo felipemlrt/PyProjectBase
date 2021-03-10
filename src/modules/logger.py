@@ -14,3 +14,8 @@ def class logger():
   except Exception as e:
    msg = "Erro: init: " + e
    self.logger.debug(msg)
+   
+ def example(self):
+  try:
+   msg = "Whatever you want to go to the log."
+   self.logger.debug(msg)
