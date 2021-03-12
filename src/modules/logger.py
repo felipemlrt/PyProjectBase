@@ -1,3 +1,5 @@
+import logging
+import os
 
 def class logger():
  """ Simple logger application. Copy to all modules.
