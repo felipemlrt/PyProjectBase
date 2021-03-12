@@ -1,6 +1,6 @@
 
 def class logger():
- """ Simple logger application.
+ """ Simple logger application. Copy to all modules.
  """
  logger = None
 
