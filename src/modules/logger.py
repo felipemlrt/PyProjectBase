@@ -20,7 +20,7 @@ def class logger():
    msg = "Erro: init: " + e
    self.logger.debug(msg)
    
- def example(self):
+ def example(self): #after the above setup throughout the module use this procedure to generate log entries
   try:
    msg = "Whatever you want to go to the log."
    self.logger.debug(msg)
